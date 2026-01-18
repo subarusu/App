@@ -997,10 +997,11 @@
 				<data android:host="manhwahub.net" />
 				<data android:host="mgkomik.id" />
 				<data android:host="pojokmanga.info" />
-				<data android:host="shinigami03.com" />
+				<data android:host="09.shinigami.asia" />
 				<data android:host="worldmanhwas.zone" />
 				<data android:host="www.xmanhwa.me" />
-				<data android:host="yubikiri.my.id" />
+                <data android:host="yubikiri.my.id" />
+                <data android:host="02.ikiru.wtf" />
 				<data android:host="yuramanga.my.id" />
 				<data android:host="www.beyondtheataraxia.com" />
 				<data android:host="mangafenxi.net" />
@@ -1329,7 +1330,7 @@
 				<data android:host="futari.info" />
 				<data android:host="kanzenin.info" />
 				<data android:host="katakomik.my.id" />
-				<data android:host="kiryuu.org" />
+				<data android:host="kiryuu03.com" />
 				<data android:host="kombatch.cc" />
 				<data android:host="komikav.com" />
 				<data android:host="komikdewasa.online" />
