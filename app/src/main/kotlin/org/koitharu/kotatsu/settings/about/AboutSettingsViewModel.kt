@@ -19,7 +19,7 @@ class AboutSettingsViewModel @Inject constructor(
 
 	val isUpdateSupported = flow {
 		emit(appUpdateRepository.isUpdateSupported())
-	}.stateIn(viewModelScope, SharingStarted.Eagerly, false)
+	}.stateIn(viewModelScope, SharingStarted.Eagerly, true)
 
 	val onUpdateAvailable = MutableEventFlow<AppVersion?>()
 
