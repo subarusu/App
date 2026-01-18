@@ -54,9 +54,9 @@ class AppUpdateRepository @Inject constructor(
 			.url(releasesUrl)
 		val jsonArray = okHttp.newCall(request.build()).await().parseJsonArray()
 		return jsonArray.mapJSONNotNull { json ->
-			val asset = json.optJSONArray("assets")?.find { jo ->
-				jo.optString("content_type") == CONTENT_TYPE_APK
-			} ?: return@mapJSONNotNull null
+            val asset = json.optJSONArray("assets")?.find { jo ->
+                jo.optString("name").endsWith(".apk", true)
+            } ?: return@mapJSONNotNull null
 			AppVersion(
 				id = json.getLong("id"),
 				url = json.getString("html_url"),
